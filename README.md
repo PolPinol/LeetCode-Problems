@@ -1,7 +1,7 @@
 # LeetCode-Problems
 Collection of LeetCode questions to ace the coding interview!
 
-| **#** |  <div style="width:590px">Title</div>                            | **Solution** | **Difficulty** |
+| **#** |  **Title**                          | **Solution** | **Difficulty** |
 |-------|-------------------------------------|--------------|----------------|
 | 1     | Two Sum                             | Java         | Easy           |
 | 7     | Reverse Integer                     | Java         | Medium         |
