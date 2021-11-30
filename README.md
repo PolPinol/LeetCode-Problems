@@ -1,6 +1,6 @@
 # LeetCode-Problems
 Collection of LeetCode questions to ace the coding interview!
-
+<div style="width=300px">
 |  #  |                Title                | Solution | Difficulty |
 |:---:|:-----------------------------------:|:--------:|:----------:|
 | 1   | Two Sum                             | Java     | Easy       |
@@ -17,3 +17,4 @@ Collection of LeetCode questions to ace the coding interview!
 | 344 | Reverse String                      | Java     | Easy       |
 | 350 | Intersection of Two Arrays II       | Java     | Easy       |
 | 387 | First Unique Character in a String  | Java     | Easy       |
+</div>
