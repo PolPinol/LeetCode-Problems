@@ -3,17 +3,17 @@ Collection of LeetCode questions to ace the coding interview!
 
 | **#** | **Title**                           | **Solution** | **Difficulty** |
 |-------|-------------------------------------|--------------|----------------|
-| 1     | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/two-sum/two-sum.java">Two Sum</a>                             | Java         | Easy           |
-| 7     | Reverse Integer                     | Java         | Medium         |
-| 14    | Longest Common Prefix               | Java         | Easy           |
-| 26    | Remove Duplicates from Sorted Array | Java         | Easy           |
-| 66    | Plus One                            | Java         | Easy           |
-| 125   | Valid Palindrome                    | Java         | Easy           |
-| 136   | Single NumberEasy                   | Java         | Easy           |
-| 189   | Rotate Array                        | Java         | Medium         |
-| 217   | Contains Duplicate                  | Java         | Easy           |
-| 242   | Valid Anagram                       | Java         | Easy           |
-| 283   | Move Zeroes                         | Java         | Easy           |
-| 344   | Reverse String                      | Java         | Easy           |
-| 350   | Intersection of Two Arrays II       | Java         | Easy           |
-| 387   | First Unique Character in a String  | Java         | Easy           |
+| 1     | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/two-sum/two-sum.java">Two Sum</a>                              | Java         | Easy           |
+| 7     | <a href="https://github.com/PolPinol/LeetCode-Problems/tree/main/reverse-integer/reverse-integer.java">Reverse Integer</a>                      | Java         | Medium         |
+| 14    | <a href="https://github.com/PolPinol/LeetCode-Problems/tree/main/longest-common-prefix/longest-common-prefix.java">Longest Common Prefix</a>                | Java         | Easy           |
+| 26    | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.java">Remove Duplicates from Sorted Array</a>  | Java         | Easy           |
+| 66    | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/plus-one/plus-one.java">Plus One</a>                             | Java         | Easy           |
+| 125   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/valid-palindrome/valid-palindrome.java">Valid Palindrome</a>                     | Java         | Easy           |
+| 136   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/single-number/single-number.java">Single NumberEasy</a>                    | Java         | Easy           |
+| 189   | <a href="https://github.com/PolPinol/LeetCode-Problems/tree/main/rotate-array/rotate-array.java">Rotate Array</a>                        | Java         | Medium         |
+| 217   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/contains-duplicate/contains-duplicate.java">Contains Duplicate</a>                  | Java         | Easy           |
+| 242   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/valid-anagram/valid-anagram.java">Valid Anagram</a>                       | Java         | Easy           |
+| 283   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/move-zeroes/move-zeroes.java">Move Zeroes</a>                         | Java         | Easy           |
+| 344   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/reverse-string/reverse-string.java">Reverse String</a>                      | Java         | Easy           |
+| 350   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/intersection-of-two-arrays-ii/intersection-of-two-arrays-ii.java">Intersection of Two Arrays II</a>       | Java         | Easy           |
+| 387   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/first-unique-character-in-a-string/first-unique-character-in-a-string.java">First Unique Character in a String</a>  | Java         | Easy           |
