@@ -1,0 +1,20 @@
+class Solution {
+    public boolean isPowerOfThree(int n) {    
+        double d = ((Math.log(n)) / (Math.log(3)));
+        System.out.println((Math.log(n)) / (Math.log(3)));
+        System.out.println(d);
+        System.out.println(d % 1);
+        if (n == 0) {
+            return false;
+        }
+        
+        if (d % 1 < 1 && d % 1 > 0.999999999999) {
+            return true;
+        }
+        return d % 1 == 0;
+    }
+    
+    public double round(double d){
+        return (Math.round(Math.abs(d))*1)/1d;
+    }
+}
