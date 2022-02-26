@@ -10,19 +10,14 @@ class Solution {
                 if (stack.empty()) {
                     return false;
                 }
+                
                 char opened = stack.pop().charValue();
-                if (c == ')') {
-                    if (opened != '(') {
-                        return false;
-                    }
-                } else if (c == '}') {
-                    if (opened != '{') {
-                        return false;
-                    }
-                } else {
-                    if (opened != '[') {
-                        return false;
-                    }
+                if (c == ')' && opened != '(') {
+                    return false;
+                } else if (c == '}' && opened != '{') {
+                    return false;
+                } else if (c == ']' && opened != '[') {
+                    return false;
                 }
             }
         }
