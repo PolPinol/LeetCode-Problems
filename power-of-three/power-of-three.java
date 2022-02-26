@@ -12,8 +12,4 @@ class Solution {
         
         return d % 1 == 0;
     }
-    
-    public double round(double d){
-        return (Math.round(Math.abs(d))*1)/1d;
-    }
 }
