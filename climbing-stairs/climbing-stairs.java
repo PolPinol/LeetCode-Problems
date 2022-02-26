@@ -10,16 +10,5 @@ class Solution {
             before = aux;
         }
         return sum;
-    }
-    // n = 0
-    // sum = 1
-    // n = 1
-    // 1+1 = 2 - sum=2
-    // n = 2
-    // 1+1
-    //
-    
+    }    
 }
-
-
-// 1 1 2 3
