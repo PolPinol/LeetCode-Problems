@@ -7,11 +7,7 @@
  * }
  */
 class Solution {
-    public void deleteNode(ListNode node) {
-        int value = node.val;
-        System.out.println(node);
-        System.out.println(node.val);
-        
+    public void deleteNode(ListNode node) { 
         ListNode iteratorNode = node;
         
         while (true) {
