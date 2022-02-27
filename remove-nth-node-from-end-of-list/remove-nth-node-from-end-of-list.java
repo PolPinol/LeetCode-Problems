@@ -13,19 +13,9 @@ class Solution {
         int index = 0;
         ListNode node = head;
         
-        /*
-        if (head.next == null) {
-            return null;
-        }
-        
-        if (head.next.next == null && n == 2) {
-            return head.next;
-        }*/
-        
         while (true) {
             int option = getNode(node, 1, n);
             if (option == 0) {
-                System.out.println(node.val);
                 node.next = node.next.next;
                 break;
             } else if (option == 1) {
