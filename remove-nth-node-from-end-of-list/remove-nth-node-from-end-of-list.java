@@ -41,7 +41,6 @@ class Solution {
             }
         } else {
             if (node.next == null) {
-                System.out.println("A");
                 return 2;
             }
             return getNode(node.next, k+1, n);
