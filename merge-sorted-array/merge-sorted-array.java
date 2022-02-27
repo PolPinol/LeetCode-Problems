@@ -9,15 +9,7 @@ class Solution {
         }
         
         for (int i = 0; i < (m+n); i++) {
-            System.out.println(queue);
-            if (indexNums2 >= n) {
-                if (indexNums1 < m) {
-                    queue.add(nums1[i]);
-                    indexNums1++;
-                }
-                nums1[i] = queue.poll();
-            } else if (!queue.isEmpty() && (queue.peek() < nums2[indexNums2])) {
-                System.out.println("C");
+            if (indexNums2 >= n || !queue.isEmpty() && (queue.peek() < nums2[indexNums2])) {
                 if (indexNums1 < m) {
                     queue.add(nums1[i]);
                     indexNums1++;
@@ -26,9 +18,7 @@ class Solution {
             } else {
                 if (nums1[i] <= nums2[indexNums2] && indexNums1 < m) {
                     indexNums1++;
-                    System.out.println("A");
                 } else {
-                    System.out.println("B");
                     if (indexNums1 < m) {
                         queue.add(nums1[i]);
                         indexNums1++;
