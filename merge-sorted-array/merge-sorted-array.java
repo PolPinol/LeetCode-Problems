@@ -15,18 +15,16 @@ class Solution {
                     indexNums1++;
                 }
                 nums1[i] = queue.poll();
+            } else if (nums1[i] <= nums2[indexNums2] && indexNums1 < m) {
+                indexNums1++;
             } else {
-                if (nums1[i] <= nums2[indexNums2] && indexNums1 < m) {
+                if (indexNums1 < m) {
+                    queue.add(nums1[i]);
                     indexNums1++;
-                } else {
-                    if (indexNums1 < m) {
-                        queue.add(nums1[i]);
-                        indexNums1++;
-                    }
-                    nums1[i] = nums2[indexNums2];
-                    indexNums2++;
                 }
-            } 
+                nums1[i] = nums2[indexNums2];
+                indexNums2++;
+            }
         }
     }
 }
