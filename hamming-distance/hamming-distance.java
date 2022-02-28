@@ -1,16 +1,14 @@
 class Solution {
     public int hammingDistance(int x, int y) {
+        int distance = 0;
+        
         String binaryX = Integer.toBinaryString(x);
         String binaryY = Integer.toBinaryString(y);
         
         int sizeX = binaryX.length();
         int sizeY = binaryY.length();
         int size = Math.max(sizeX, sizeY);
-        boolean startCounting = false;
-        int distance = 0;
         
-        System.out.println(binaryX);
-        System.out.println(binaryY);
         
         for (int i = 0; i < size; i++) {
             int actualX;
