@@ -34,10 +34,12 @@ class Solution {
             }
             
             nodeBefore.val = node.val;
+            
             if (list1 == null && list2 == null) {
                 nodeBefore.next = null;
                 break;   
             }
+            
             nodeBefore.next = node;
             nodeBefore = node;
         }
