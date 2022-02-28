@@ -21,20 +21,18 @@ class Solution {
             return list1;
         }
         
-        while (list1 != null || list2 != null) {
+        while (true) {
             if (list1 == null) {
                 node = new ListNode(list2.val);
-                System.out.println(list2.val);
                 list2 = list2.next;
             } else if (list2 == null || list1.val < list2.val) {
                 node = new ListNode(list1.val);
-                System.out.println(list1.val);
                 list1 = list1.next;
             } else {
                 node = new ListNode(list2.val);
-                System.out.println(list2.val);
                 list2 = list2.next;
             }
+            
             nodeBefore.val = node.val;
             if (list1 == null && list2 == null) {
                 nodeBefore.next = null;
@@ -43,8 +41,6 @@ class Solution {
             nodeBefore.next = node;
             nodeBefore = node;
         }
-        
-        nodeBefore = null;
         
         return head;
     }
