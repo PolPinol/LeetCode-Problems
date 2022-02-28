@@ -1,8 +1,8 @@
 # LeetCode-Problems
 Collection of LeetCode questions to ace the coding interview!
 
-| **#** | **Title**                           | ** Type ** | ** Cost ** | ** Memory ** | **Solution** | **Difficulty** |
-|-------|-------------------------------------|------------|------------|--------------|--------------|----------------|
+| **#** | **Title**                           | **Type** | **Cost** | **Memory** | **Solution** | **Difficulty** |
+|-------|-------------------------------------|----------|----------|------------|--------------|----------------|
 | 1     | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/two-sum/two-sum.java">Two Sum</a>                                              									|  | - | - | Java | Easy           |
 | 7     | <a href="https://github.com/PolPinol/LeetCode-Problems/tree/main/reverse-integer/reverse-integer.java">Reverse Integer</a>                      									|  | - | - | Java | Medium         |
 | 14    | <a href="https://github.com/PolPinol/LeetCode-Problems/tree/main/longest-common-prefix/longest-common-prefix.java">Longest Common Prefix</a>            								|  | - | - | Java | Easy           |
