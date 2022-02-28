@@ -15,40 +15,14 @@ class Solution {
         reversed = reverseList(reversed);
         
         while (node != null) {
-            
-
-            
-            
             if (reversed.val != node.val) {
                 return false;
             }
             
             reversed = reversed.next;
             node = node.next;
-            
-            
         }
         
-        
-        
-        return true;
-        
-        /*StringBuilder str = new StringBuilder();
-        
-        while (node != null) {
-            str.append(Integer.toString(node.val));
-            node = node.next;
-        }
-        return isPalindrome(str.toString());*/
-    }
-    
-    public boolean isPalindrome(String s) {
-        int size = s.length();
-        for (int i = 0; i < size; i++) {
-            if (s.charAt(i) != s.charAt(size - i - 1)) {
-                return false;
-            }
-        }
         return true;
     }
     
