@@ -9,7 +9,6 @@ class Solution {
             minNum = nums[0];
         }
         
-        
         this.set = new HashSet<ArrayList<Integer>>();
         
         for (int i = 0; i < nums.length; i++) {
@@ -29,7 +28,7 @@ class Solution {
                     sort(-target - nums[i], nums[i], target);
                 } else {
                     int aux = -target - nums[i];
-                    if (aux < minNum) {
+                    if (aux < minNum && target + nums[i] > nums[i]) {
                         break;
                     }
                     map.put(aux, 0);
