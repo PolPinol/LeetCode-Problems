@@ -46,6 +46,14 @@ Set<Integer> set = new HashSet<Integer>(Arrays.asList(wrapper));
 #### Clonar array estàtic
 `int[] copiedArray = nums.clone();`
 
+#### int[] to Integer[]
+
+`Integer[] list = Arrays.stream( data ).boxed().toArray(Integer[]::new);`
+
+#### int[] to ArrayList<Integer>
+
+`List<Integer> list = Arrays.stream( data ).boxed().collect(Collectors.toList());`
+
 ## Strings
 
 #### String to Integer
