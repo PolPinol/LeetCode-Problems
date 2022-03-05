@@ -28,7 +28,7 @@ class Solution {
                     sort(-target - nums[i], nums[i], target);
                 } else {
                     int aux = -target - nums[i];
-                    if (aux < target && target + nums[i] > target && target + nums[i] > nums[i]) {
+                    if (aux < 0 && nums[i] > 0 && target > 0) {
                         break;
                     }
                     map.put(aux, 0);
