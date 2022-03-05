@@ -1,7 +1,15 @@
 class Solution {
     private Set<ArrayList<Integer>> set;
+    private int minNum;
     
     public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        
+        if (nums.length != 0) {
+            minNum = nums[0];
+        }
+        
+        
         this.set = new HashSet<ArrayList<Integer>>();
         
         for (int i = 0; i < nums.length; i++) {
@@ -19,9 +27,11 @@ class Solution {
             if (i != numOut) {
                 if (map.containsKey(nums[i])) {
                     sort(-target - nums[i], nums[i], target);
-                    //map.remove(nums[i]);
                 } else {
                     int aux = -target - nums[i];
+                    if (aux < minNum) {
+                        break;
+                    }
                     map.put(aux, 0);
                 }
             }
