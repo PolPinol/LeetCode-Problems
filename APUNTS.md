@@ -1,5 +1,31 @@
 # Apunts Java - LeetCode Problemes
 
+## HashMap
+`HashMap<String, String> capitalCities = new HashMap<String, String>();`
+
+#### Add an Item
+`map.add(key, value)`
+
+#### Access an Item
+`value = map.get()`
+
+#### Remove an Item
+`map.remove(key)`
+
+#### Get Keys
+```
+for (String i : map.keySet()) {
+  System.out.println(i);
+}
+```
+
+#### Get Values
+```
+for (String i : map.values()) {
+  System.out.println(i);
+}
+```
+
 ## HashSet
 
 `Set<Integer> set = new HashSet<Integer>();`
