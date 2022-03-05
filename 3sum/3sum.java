@@ -18,12 +18,7 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
             if (i != numOut) {
                 if (map.containsKey(nums[i])) {
-                    ArrayList<Integer> solution = new ArrayList<Integer>();
-                    solution.add(-target - nums[i]);
-                    solution.add(nums[i]);
-                    solution.add(target);
-                    Collections.sort(solution);
-                    set.add(solution);
+                    sort(-target - nums[i], nums[i], target);
                     map.remove(nums[i]);
                 } else {
                     int aux = -target - nums[i];
@@ -34,5 +29,34 @@ class Solution {
         
 
         return arrayList;
+    }
+    
+    public void sort(int x, int y, int z) {
+        int max = z;
+        if (x > max || y > max) {
+            if (x > y) {
+                max = x;
+            } else {
+                max = y;
+            }
+        }
+        
+        int min = z;
+        
+        if (x < min || y < min) {
+            if (x < y) {
+                min = x;
+            } else {
+                min = y;
+            }
+        }
+
+        int mid = x + y + z - max - min;
+        
+        ArrayList<Integer> solution = new ArrayList<Integer>();
+        solution.add(min);
+        solution.add(mid);
+        solution.add(max);
+        set.add(solution);
     }
 }
