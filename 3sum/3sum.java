@@ -19,7 +19,7 @@ class Solution {
             if (i != numOut) {
                 if (map.containsKey(nums[i])) {
                     sort(-target - nums[i], nums[i], target);
-                    map.remove(nums[i]);
+                    //map.remove(nums[i]);
                 } else {
                     int aux = -target - nums[i];
                     map.put(aux, 0);
