@@ -11,25 +11,11 @@ class Solution {
                 solution[1] = i;
                 
                 return solution;
-                //map.put(nums[i], 1);
-                //break;
             } else {
                 int aux = target - nums[i];
                 map.put(aux, i);
             }
         }
-        
-        //ArrayList<Integer> arrayList = new ArrayList<>();
-        //int[] solution = new int[2];
-        
-        /*
-        for (int n : map.keySet()) {
-            if (map.get(n) == 1) {
-                //arrayList.add(n);
-                solution[0] = target - n;
-                solution[1] = n;
-            }
-        }*/
 
         return null;
     }
