@@ -6,10 +6,12 @@ Collection of LeetCode questions to ace the coding interview!
 | 1     | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/two-sum/two-sum.java">Two Sum</a>                                              									| Array | - | - | Java | Easy           |
 | 7     | <a href="https://github.com/PolPinol/LeetCode-Problems/tree/main/reverse-integer/reverse-integer.java">Reverse Integer</a>                      									| Math | - | - | Java | Medium         |
 | 14    | <a href="https://github.com/PolPinol/LeetCode-Problems/tree/main/longest-common-prefix/longest-common-prefix.java">Longest Common Prefix</a>            								| String | - | - | Java | Easy           |
+| 15    | <a href="https://leetcode.com/problems/3sum/">3Sum</a>            								| Array | O(n^2) | O(n^2) | Java | Medium           |
 | 19   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.java">Remove Nth Node From End of List</a> 	 		| Linked List | - | - | Java | Medium |
 | 20   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/valid-parentheses/valid-parentheses.java">Valid Parentheses</a>  													| String | - | - | Java | Easy |
 | 21   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/merge-two-sorted-lists/merge-two-sorted-lists.java">Merge Two Sorted Lists</a>  									| Linked List | - | - | Java | Easy |
 | 26    | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.java">Remove Duplicates from Sorted Array</a>  	| Array | - | - | Java | Easy           |
+| 38    | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/count-and-say/count-and-say.java">Count and Say</a>  	| String | O(nm) | O(1) | Java | Medium           |
 | 53   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/maximum-subarray/maximum-subarray.java">Maximum Subarray</a>  													| Array | - | - | Java | Easy |
 | 66    | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/plus-one/plus-one.java">Plus One</a>                             												| Math | - | - | Java | Easy           |
 | 70   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/climbing-stairs/climbing-stairs.java">Climbing Stairs</a>  														| Math | - | - | Java | Easy |
@@ -29,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview!
 | 268   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/missing-number/missing-number.java">Missing Number</a>  														| Math | - | - | Java | Easy |
 | 283   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/move-zeroes/move-zeroes.java">Move Zeroes</a>                         											| Array | - | - | Java | Easy           |
 | 326   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/power-of-three/power-of-three.java">Power of Three</a>  														| Math | - | - | Java | Easy |
+| 334   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/increasing-triplet-subsequence/increasing-triplet-subsequence.java">Increasing Triplet Subsequence</a>  														| Array | O(n) | O(1) | Java | Medium |
 | 344   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/reverse-string/reverse-string.java">Reverse String</a>                      										| String | - | - | Java | Easy           |
 | 350   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/intersection-of-two-arrays-ii/intersection-of-two-arrays-ii.java">Intersection of Two Arrays II</a>       				| Array | - | - | Java | Easy           |
 | 387   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/first-unique-character-in-a-string/first-unique-character-in-a-string.java">First Unique Character in a String</a>  		| String | - | - | Java | Easy |
