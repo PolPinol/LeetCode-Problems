@@ -1,7 +1,7 @@
 # Apunts Java - LeetCode Problemes
 
 ## HashMap
-`HashMap<String, String> capitalCities = new HashMap<String, String>();`
+`HashMap<String, String> map = new HashMap<String, String>();`
 
 #### Add an Item
 `map.add(key, value)`
@@ -26,6 +26,12 @@ for (String i : map.values()) {
 }
 ```
 
+#### Keys to ArrayList
+`ArrayList<String> listOfKeys = map.keySet().stream().collect(Collectors.toCollection(ArrayList::new));`
+  
+#### Values to ArrayList
+`ArrayList<Integer> listOfValues = map.values().stream().collect(Collectors.toCollection(ArrayList::new));`
+  
 ## HashSet
 
 `Set<Integer> set = new HashSet<Integer>();`
