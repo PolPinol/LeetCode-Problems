@@ -13,15 +13,7 @@ class Solution {
             } else if (nums[i] > max) {
                 return true;
             }
-        }
-        
-        
-        if (min < mid && mid < max && 
-            min != Integer.MAX_VALUE && mid != Integer.MAX_VALUE && max != Integer.MIN_VALUE) {
-            return true;
-        }
-        
-        
+        }    
         
         return false;
     }
