@@ -25,26 +25,4 @@ class Solution {
         
         return map.values().stream().collect(Collectors.toCollection(ArrayList::new));
     }
-    
-    public boolean isAnagram(String s1, String s2) {
-        if (s1.length() == 0 && s2.length() == 0) {
-            return true;
-        }
-        
-        if (s1.length() != s2.length()) {
-            return false;
-        }
-        
-        char tempArray1[] = s1.toCharArray();
-        char tempArray2[] = s2.toCharArray();
-        Arrays.sort(tempArray1);
-        Arrays.sort(tempArray2);
-        
-        for (int i = 0; i < s1.length(); i++) {
-            if (tempArray1[i] != tempArray2[i]) {
-                return false;
-            }
-        }
-        return true;
-    }
 }
