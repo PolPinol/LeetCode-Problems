@@ -6,6 +6,27 @@ class Solution {
             return solution;
         }
         
+        /*
+        HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
+        
+        ArrayList<String> list = new ArrayList<String>();
+        
+        for (int i = 0; i < strs.length; i++) {
+            flagInserted = false;
+            
+            for (String key : map.keySet()) {
+                if (isAnagram(strs[i], key) {
+                    solution.get(j).add(strs[i]);
+                    map.put();
+                    break;
+                }
+            }
+            
+            list = new ArrayList<String>();
+            list.add(strs[i]);
+            solution.add(list);
+        }*/
+        
         ArrayList<String> list = new ArrayList<String>();
         boolean flagInserted = false;
         
