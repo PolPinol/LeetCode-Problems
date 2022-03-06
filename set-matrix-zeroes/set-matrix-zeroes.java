@@ -4,7 +4,6 @@ class Solution {
         int[] columns = new int[matrix[0].length];
         
         for (int i = 0; i < matrix.length; i++) {
-            System.out.println("rows " + rows[i]);
             for (int j = 0; j < matrix[0].length; j++) {
                 System.out.print(matrix[i][j]);
                 if (rows[i] == 1 || columns[j] == 1) {
