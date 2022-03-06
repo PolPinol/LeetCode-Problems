@@ -6,49 +6,30 @@ class Solution {
             return solution;
         }
         
-        /*
         HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
-        
         ArrayList<String> list = new ArrayList<String>();
         
         for (int i = 0; i < strs.length; i++) {
-            flagInserted = false;
-            
-            for (String key : map.keySet()) {
-                if (isAnagram(strs[i], key) {
-                    solution.get(j).add(strs[i]);
-                    map.put();
-                    break;
-                }
-            }
-            
-            list = new ArrayList<String>();
-            list.add(strs[i]);
-            solution.add(list);
-        }*/
-        
-        ArrayList<String> list = new ArrayList<String>();
-        boolean flagInserted = false;
-        
-        for (int i = 0; i < strs.length; i++) {
-            flagInserted = false;
-                for (int j = 0; j < solution.size(); j++) {
-                    if (isAnagram(strs[i], solution.get(j).get(0))) {
-                        flagInserted = true;
-                        solution.get(j).add(strs[i]);
-                        break;
-                    }
-                }
-            
-            
-            if (!flagInserted) {
+            char tempArray[] = strs[i].toCharArray();
+            Arrays.sort(tempArray);
+            System.out.println(tempArray);
+            String aux = new String(tempArray);
+            if (map.containsKey(aux)) {
+                System.out.println("BBB");
+                list = map.get(aux);
+            } else {
                 list = new ArrayList<String>();
-                list.add(strs[i]);
-                solution.add(list);
             }
+            list.add(strs[i]);
+            map.put(new String(aux), list);
         }
         
-        return solution;
+        for (ArrayList<String> a : map.values()) {
+            System.out.println(a);
+            System.out.println("AAA");
+        }
+        
+        return map.values().stream().collect(Collectors.toCollection(ArrayList::new));
     }
     
     public boolean isAnagram(String s1, String s2) {
