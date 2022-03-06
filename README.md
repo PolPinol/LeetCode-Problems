@@ -6,7 +6,7 @@ Collection of LeetCode questions to ace the coding interview!
 | 1     | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/two-sum/two-sum.java">Two Sum</a>                                              									| Array | - | - | Java | Easy           |
 | 7     | <a href="https://github.com/PolPinol/LeetCode-Problems/tree/main/reverse-integer/reverse-integer.java">Reverse Integer</a>                      									| Math | - | - | Java | Medium         |
 | 14    | <a href="https://github.com/PolPinol/LeetCode-Problems/tree/main/longest-common-prefix/longest-common-prefix.java">Longest Common Prefix</a>            								| String | - | - | Java | Easy           |
-| 15    | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/3sum/3sum.java">3Sum</a>            								| Array | O(n^2) | O(n^2) | Java | Medium           |
+| 15    | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/3sum/3sum.java">3Sum</a>            								| Array | O($n^2$) | O($n^2$) | Java | Medium           |
 | 19   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.java">Remove Nth Node From End of List</a> 	 		| Linked List | - | - | Java | Medium |
 | 20   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/valid-parentheses/valid-parentheses.java">Valid Parentheses</a>  													| String | - | - | Java | Easy |
 | 21   | <a href="https://github.com/PolPinol/LeetCode-Problems/blob/main/merge-two-sorted-lists/merge-two-sorted-lists.java">Merge Two Sorted Lists</a>  									| Linked List | - | - | Java | Easy |
