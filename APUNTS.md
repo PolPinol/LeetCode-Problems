@@ -28,9 +28,13 @@ for (String i : map.values()) {
 
 #### Keys to ArrayList
 `ArrayList<String> listOfKeys = map.keySet().stream().collect(Collectors.toCollection(ArrayList::new));`
-  
+
+`new ArrayList(map.keySet())`
+
 #### Values to ArrayList
 `ArrayList<Integer> listOfValues = map.values().stream().collect(Collectors.toCollection(ArrayList::new));`
+
+`new ArrayList(map.values())`
   
 ## HashSet
 
