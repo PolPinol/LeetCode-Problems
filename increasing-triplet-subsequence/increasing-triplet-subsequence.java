@@ -11,7 +11,7 @@ class Solution {
             } else if (nums[i] <= mid) {
                 mid = nums[i];
             } else if (nums[i] > max) {
-                max = nums[i];
+                return true;
             }
         }
         
