@@ -9,7 +9,6 @@ class Solution {
                 System.out.print(matrix[i][j]);
                 if (rows[i] == 1 || columns[j] == 1) {
                     if (matrix[i][j] == 0) {
-                       
                         columns[j] = 1;
 
                         for (int k = 0; k < i; k++) {
@@ -21,12 +20,12 @@ class Solution {
                             i--;
                             break;
                         }
-                         rows[i] = 1;
+                        rows[i] = 1;
                         
-                        System.out.println("A");
+                        
                     } else {
                         matrix[i][j] = 0;
-                        System.out.println("B");
+                        
                     }
                 } else if (matrix[i][j] == 0) {
                     rows[i] = 1;
@@ -35,23 +34,11 @@ class Solution {
                     for (int k = 0; k < i; k++) {
                         matrix[k][j] = 0;
                     }
-                    System.out.println("C");
+                    
                     i--;
                     break;
-                } else {
-                    System.out.println("D");
                 }
             }
-            System.out.println("-----------------------");
         }
-        printA(rows);
-        printA(columns);
-    }
-    
-    public void printA(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
-        System.out.println("");
     }
 }
