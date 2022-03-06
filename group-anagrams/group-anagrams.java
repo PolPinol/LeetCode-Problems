@@ -12,21 +12,15 @@ class Solution {
         for (int i = 0; i < strs.length; i++) {
             char tempArray[] = strs[i].toCharArray();
             Arrays.sort(tempArray);
-            System.out.println(tempArray);
             String aux = new String(tempArray);
+            
             if (map.containsKey(aux)) {
-                System.out.println("BBB");
                 list = map.get(aux);
             } else {
                 list = new ArrayList<String>();
             }
             list.add(strs[i]);
             map.put(new String(aux), list);
-        }
-        
-        for (ArrayList<String> a : map.values()) {
-            System.out.println(a);
-            System.out.println("AAA");
         }
         
         return map.values().stream().collect(Collectors.toCollection(ArrayList::new));
