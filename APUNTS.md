@@ -40,6 +40,15 @@ for (String i : map.values()) {
 
 `Set<Integer> set = new HashSet<Integer>();`
 
+#### Iterar en HashSet
+
+```
+Iterator values = set.iterator();
+while (values.hasNext()) {
+    System.out.println((int) values.next());
+}
+```
+
 #### Eliminar números repetits:
 
 ```
