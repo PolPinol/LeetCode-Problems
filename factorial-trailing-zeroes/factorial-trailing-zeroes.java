@@ -1,11 +1,11 @@
 class Solution {
     public int trailingZeroes(int n) {
         // 5 * 4 * 3 * 2 * 1
-        // trailing zeroes = 10 + 5*2
+        // trailing zeroes = count only 5s
         
         int count = 0;
         for (int i = 1; i <= n; i++) {
-            if(i % 5 == 0) {
+            if (i % 5 == 0) {
                 count += 1 + getDiv(i/5);
             }
         }
