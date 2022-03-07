@@ -5,9 +5,7 @@ class Solution {
         
         int count = 0;
         for (int i = 1; i <= n; i++) {
-            if (i % 10 == 0) {
-                count += 1 + getDiv(i/10);
-            } else if(i % 5 == 0) {
+            if(i % 5 == 0) {
                 count += 1 + getDiv(i/5);
             }
         }
@@ -15,10 +13,7 @@ class Solution {
     }
     
     public int getDiv(int n) {
-        int count = 0;
-        if (n % 10 == 0) {
-            return 1 + getDiv(n/10);
-        } else if(n % 5 == 0) {
+        if (n % 5 == 0) {
             return 1 + getDiv(n/5);
         }
         return 0;
