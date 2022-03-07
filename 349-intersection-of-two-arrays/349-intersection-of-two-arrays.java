@@ -27,6 +27,11 @@ class Solution {
             }
         }
         
-        return temp.stream().mapToInt(Integer::intValue).toArray();
+        
+        int[] solution = new int[temp.size()];
+        for (int i = 0; i < temp.size(); i++) {
+            solution[i] = temp.get(i);
+        }
+        return solution;
     }
 }
