@@ -1,90 +1,111 @@
-# Apunts Java - LeetCode Problemes
+# Apunts C++ - LeetCode Problemes
 
 
 
-## HashMap
+## Introduction
 
-`HashMap<String, String> map = new HashMap<String, String>();`
+#### Print
+`cout << "Hello World!";`
 
+#### Scanner
+`cin >> x;`
 
+#### Types
+`bool a = true;`
+`string b = "AAA";`
 
-#### Add an Item
+#### Constants
+`const float PI = 3.14;`
 
-`map.add(key, value)`
-
-
-
-#### Access an Item
-
-`value = map.get()`
-
-
-
-#### Remove an Item
-
-`map.remove(key)`
-
-
-
-#### Get Keys
+#### Math
 
 ```
+cout << max(5, 10);
+cout << min(5, 10);
+cout << sqrt(64);
+cout << round(2.6);
+cout << log(2);
+```
 
-for (String i : map.keySet()) {
+#### Initialize arrays
+`int myNum[3] = {10, 20, 30};`
 
-  System.out.println(i);
+#### Get the Size of an Array
+`sizeof(myNumbers)`
 
+#### How many elements an array has
+`sizeof(myNumbers) / sizeof(int)`
+
+#### Struct
+```
+struct {
+  int myNum;
+  string myString;
+} myStructure;
+```
+
+#### Default parameter on a function call
+```
+void myFunction(string country = "Norway") {
+  cout << country << "\n";
+}
+
+myFunction();
+myFunction("USA");
+```
+
+#### Classes
+Primer exemple senzill:
+```
+class MyClass {      
+  public:             
+    int myNum;        
+    string myString;
+    void myMethod2();
+    
+    void myMethod() {
+      cout << "Hello World!";
+    }
+};
+
+void MyClass::myMethod2() {
+  cout << "Hello World!";
+}
+```
+
+Exemple amb constructor:
+```
+class Car {
+  public:
+    int year;     
+    Car(int z) {
+      year = z;
+    }
+};
+
+int main() {
+  Car carObj1(1999);
+  return 0;
 }
 
 ```
 
-
-
-#### Get Values
-
+Exemple amb constructor:
 ```
+class Car {
+  public:
+    int year;     
+    Car(int z);
+};
 
-for (String i : map.values()) {
+Car::Car(int z) {
+  year = z;
+}
 
-  System.out.println(i);
-
+int main() {
+  Car carObj1(1999);
+  return 0;
 }
 
 ```
 
-
-
-#### Keys to ArrayList
-
-`ArrayList<String> listOfKeys = map.keySet().stream().collect(Collectors.toCollection(ArrayList::new));`
-
-
-
-`new ArrayList(map.keySet())`
-
-
-
-#### Values to ArrayList
-
-`ArrayList<Integer> listOfValues = map.values().stream().collect(Collectors.toCollection(ArrayList::new));`
-
-
-
-`new ArrayList(map.values())`
-
-  
-
-## HashSet
-
-
-
-`Set<Integer> set = new HashSet<Integer>();`
-
-
-
-#### Iterar en HashSet
-
-
-
-
-```
